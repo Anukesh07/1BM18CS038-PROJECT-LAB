@@ -1,0 +1,6 @@
+line 13: $q=mysqli_query($con,'select count(*) from ques where email='.$email);
+         $a=mysqli_query($con,'select count(*) from ans where email='.$email);
+
+line 58: <br><br> Questions<br><?php echo $q; ?>
+
+line 68: <br><br> Answers<br><?php echo $a; ?>
